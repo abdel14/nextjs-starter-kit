@@ -36,9 +36,8 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
-          <h1>DatoCMS + Next.js Starter Kit</h1>
-          <nav>
+        {/* <header> */}
+        {/* <nav>
             <a className="navlink" href="https://www.datocms.com/docs/next-js">
               📚 Full Integration Guide
             </a>
@@ -48,9 +47,9 @@ export default async function RootLayout({
             <a className="navlink" href="/real-time-updates">
               ⚡️ Real-time Updates Route
             </a>
-          </nav>
-          <DraftModeToggler draftModeEnabled={isDraftModeEnabled} />
-        </header>
+          </nav> */}
+        {/* <DraftModeToggler draftModeEnabled={isDraftModeEnabled} /> */}
+        {/* </header> */}
         <main>{children}</main>
       </body>
     </html>

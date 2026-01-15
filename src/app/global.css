@@ -4,11 +4,15 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.css') screen
   and (prefers-color-scheme: light);
 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+  @import 'tailwindcss';
 :root {
   --font-mono:
     Menlo, Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
   --font-serif: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
-  --font-sans: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+  --font-sans: 'Montserrat', Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   --color-text-1: #000000;
   --color-text-2: #1a1a1a;
   --color-background-1: #ffffff;
